@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="SunriseSunset" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunrise" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="393-5j-mMR">
+                                <rect key="frame" x="15" y="44" width="359" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="995" constant="71" id="kSj-CU-LLZ"/>
+                                    <constraint firstAttribute="height" constant="63" id="riV-Pc-ASt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solar Noon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XGn-nl-rss">
+                                <rect key="frame" x="14.721362229102169" y="273" width="358.00000000000023" height="81.999999999999972"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="82" id="IRq-KU-7gZ"/>
+                                    <constraint firstAttribute="width" constant="105" id="put-A3-g7F"/>
+                                </constraints>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sunset" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKQ-Zl-GvR">
+                                <rect key="frame" x="15" y="521" width="358" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DfO-gP-Cwd"/>
+                                    <constraint firstAttribute="width" constant="80" id="uda-Bh-jW0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="solarnoon" translatesAutoresizingMaskIntoConstraints="NO" id="CIy-y5-Pa3">
+                                <rect key="frame" x="120" y="363" width="150" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="CCg-cQ-SGN"/>
+                                    <constraint firstAttribute="width" constant="150" id="WwP-oy-YL3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="desertsunrise" translatesAutoresizingMaskIntoConstraints="NO" id="RYS-Q4-VQO">
+                                <rect key="frame" x="120" y="115" width="150" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Swj-Wy-MLC"/>
+                                    <constraint firstAttribute="width" constant="150" id="d73-55-tUW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="desertsunset" translatesAutoresizingMaskIntoConstraints="NO" id="zYv-QV-g4Z">
+                                <rect key="frame" x="118" y="584" width="150" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="ZmC-2p-GS9"/>
+                                    <constraint firstAttribute="width" constant="150" id="jZZ-yv-26c"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RYS-Q4-VQO" secondAttribute="trailing" constant="120" id="66H-3P-xIB"/>
+                            <constraint firstItem="RYS-Q4-VQO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="6cE-Gm-K5x"/>
+                            <constraint firstItem="zYv-QV-g4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="7C4-dB-eGa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hKQ-Zl-GvR" secondAttribute="trailing" constant="155" id="BbJ-C9-ww6"/>
+                            <constraint firstItem="zYv-QV-g4Z" firstAttribute="top" secondItem="hKQ-Zl-GvR" secondAttribute="bottom" constant="8" symbolic="YES" id="DSC-Pv-7Pn"/>
+                            <constraint firstItem="XGn-nl-rss" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="FIT-oE-Ani"/>
+                            <constraint firstItem="hKQ-Zl-GvR" firstAttribute="top" secondItem="CIy-y5-Pa3" secondAttribute="bottom" constant="8" symbolic="YES" id="GDR-HE-xoA"/>
+                            <constraint firstItem="RYS-Q4-VQO" firstAttribute="top" secondItem="393-5j-mMR" secondAttribute="bottom" constant="8" symbolic="YES" id="Hhu-tV-uiv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XGn-nl-rss" secondAttribute="trailing" constant="142" id="VrH-ib-RHc"/>
+                            <constraint firstItem="CIy-y5-Pa3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="gwc-fa-GVG"/>
+                            <constraint firstItem="393-5j-mMR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h4G-Fe-P7c"/>
+                            <constraint firstItem="CIy-y5-Pa3" firstAttribute="top" secondItem="XGn-nl-rss" secondAttribute="bottom" constant="8" symbolic="YES" id="j3V-bN-Iza"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CIy-y5-Pa3" secondAttribute="trailing" constant="120" id="m6W-JI-so5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zYv-QV-g4Z" secondAttribute="trailing" constant="120" id="sDH-KG-7Pg"/>
+                            <constraint firstItem="XGn-nl-rss" firstAttribute="top" secondItem="RYS-Q4-VQO" secondAttribute="bottom" constant="8" symbolic="YES" id="vi2-ll-BRK"/>
+                            <constraint firstItem="393-5j-mMR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="158" id="wEn-nr-3YD"/>
+                            <constraint firstItem="hKQ-Zl-GvR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="yUa-H0-XjG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="solarnoonLabel" destination="XGn-nl-rss" id="hET-qM-OjT"/>
+                        <outlet property="sunriseLabel" destination="393-5j-mMR" id="Bug-IL-V7R"/>
+                        <outlet property="sunsetLabel" destination="hKQ-Zl-GvR" id="gSf-Ka-GFN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.46153846153845" y="116.58767772511848"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="desertsunrise" width="2112" height="2637"/>
+        <image name="desertsunset" width="1280" height="853"/>
+        <image name="solarnoon" width="800" height="600"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
